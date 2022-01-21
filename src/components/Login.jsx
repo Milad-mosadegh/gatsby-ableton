@@ -32,13 +32,13 @@ function Login({ connectLink, myData }) {
       <h1>You can Login here!</h1>
 
 
-        <form onSubmit={submitHandler} className="container p-5">
+        <form onSubmit={submitHandler} className={style.containerSm}>
           <input
             onChange={changeHandler}
             required
             name="email"
             type="text"
-            className="form-control mb-1"
+            className={style.formInput}
             placeholder="Please Enter your Email"
           />
           <input
@@ -46,7 +46,7 @@ function Login({ connectLink, myData }) {
             required
             name="password"
             type="password"
-            className="form-control mb-1"
+            className={style.formInput}
             placeholder="Please Enter your password"
           />
           <button type="submit" className="btn btn-warning btn-block">

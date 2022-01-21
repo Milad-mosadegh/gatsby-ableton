@@ -1,12 +1,32 @@
-.center{
-    height: 90vh;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.center {
+  height: 90vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.center h1{
+.center h1 {
   border-bottom: 2px solid gold;
   padding: 20px;
+}
+
+.containerSm {
+  width: 35%;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.formInput {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  border-bottom: 2px solid gold;
+  margin-bottom: 10px;
+  color: white;
+  padding: 5px;
+}
+
+.formInput:focus {
+  outline: none;
 }

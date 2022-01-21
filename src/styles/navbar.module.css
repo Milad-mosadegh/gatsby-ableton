@@ -19,8 +19,9 @@
   align-items: center;
 }
 
-.linkLogo p, h1{
-    color: gold;
+.linkLogo p,
+h1 {
+  color: gold;
 }
 
 .nothing {
@@ -40,7 +41,7 @@
 }
 
 .navbarBtn {
-  width:60%;
+  width: 60%;
   background: transparent;
   display: flex;
   justify-content: start;
@@ -107,6 +108,10 @@
 
   .navbarBtn {
     width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .navbarLink {
     font-size: 12px;
@@ -127,7 +132,7 @@
   .navbarBtn {
     width: 100%;
   }
-    .navbarLink {
+  .navbarLink {
     font-size: 14px;
   }
 }

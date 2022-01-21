@@ -7,35 +7,35 @@ function Register({connectLink}) {
   return (
     <div className={style.center}>
       <h1>You can Register here!</h1>
-      <form className="container p-5">
+      <form className={style.containerSm}>
         <input
           required
           type="text"
-          className="form-control mb-1"
+          className={style.formInput}
           placeholder="Please Enter your First Name"
         />
         <input
           required
           type="text"
-          className="form-control mb-1"
+          className={style.formInput}
           placeholder="Please Enter your Last Name"
         />
         <input
           required
           type="date"
-          className="form-control mb-1"
+          className={style.formInput}
           placeholder="Please Enter your Birthday"
         />
         <input
           required
           type="text"
-          className="form-control mb-1"
+          className={style.formInput}
           placeholder="Please Enter your Email"
         />
         <input
           required
           type="password"
-          className="form-control mb-1"
+          className={style.formInput}
           placeholder="Please Enter your password"
         />
         <button className="btn btn-warning btn-block">Register</button>

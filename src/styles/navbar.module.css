@@ -1,0 +1,133 @@
+.navbar {
+  display: flex;
+  /* grid-template-columns:  1fr; */
+  justify-content: center;
+  padding: 30px;
+  transition: 0.5s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.linkLogo {
+  width: 40%;
+  display: flex;
+  justify-content: start;
+  padding-top: 15px;
+  align-items: center;
+}
+
+.linkLogo p, h1{
+    color: gold;
+}
+
+.nothing {
+  display: none;
+}
+
+.navbarLogo {
+  color: rgb(255, 223, 79);
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.navbarLogo:hover {
+  text-decoration: none;
+  color: rgb(255, 223, 79);
+  text-shadow: 4px 4px 5px rgba(255, 223, 79, 0.493);
+}
+
+.navbarBtn {
+  width:60%;
+  background: transparent;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.navbarLink {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 18px;
+  padding: 20px;
+  transition: 0.5s;
+}
+
+.navbarLink:hover {
+  border-bottom: 2px solid rgb(255, 223, 79);
+  letter-spacing: 3px;
+  text-decoration: none;
+  color: rgb(255, 223, 79);
+}
+
+.loginLogo {
+  margin-left: 10px;
+  color: rgb(255, 223, 79);
+  margin-left: 30px;
+}
+
+.navbarBtn button {
+  border: none;
+  background: transparent;
+  font-size: 20px;
+}
+.navbarBtn button:focus {
+  outline: 0;
+}
+
+@media only screen and (max-width: 376px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .linkLogo {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .navbarBtn {
+    width: 100%;
+  }
+  .navbarLink {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .navbar {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .linkLogo {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .navbarBtn {
+    width: 100%;
+  }
+  .navbarLink {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 501px) {
+  .navbar {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .linkLogo {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .navbarBtn {
+    width: 100%;
+  }
+    .navbarLink {
+    font-size: 14px;
+  }
+}

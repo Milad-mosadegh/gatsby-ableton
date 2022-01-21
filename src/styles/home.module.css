@@ -1,0 +1,121 @@
+.header {
+  /* border: 1px solid red; */
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.603), black),
+    url("https://media.uaudio.com/assetlibrary/b/l/blog_ableton_live_apollo_setup_hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.header h1 {
+  margin-top: 200px;
+  background: transparent;
+  font-size: 90px;
+  padding: 20px;
+  border-bottom: 1px solid gold;
+}
+
+.header p {
+  background-color: transparent;
+}
+
+.header button {
+  margin-top: 20px;
+  border: none;
+  background: gold;
+  padding: 15px;
+  border-radius: 10px;
+
+  transition: 0.5s;
+}
+
+.header button:hover {
+  color: black;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.685);
+  transform: translateY(10px);
+}
+
+.header .btnLink {
+  text-decoration: none;
+  color: gray;
+  transition: 0.5s;
+}
+
+.header .btnLink:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.boxOne {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.boxOne_left {
+  padding: 30px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.boxOne_left h2 {
+  padding-bottom: 20px;
+  border-bottom: 1px solid gold;
+}
+
+.boxOne_right {
+  background-image: url("https://sm.pcmag.com/t/pcmag_in/news/a/apple-targ/apple-targets-ableton-live-with-logic-pro-x-105_4skw.1200.jpg");
+  background-size: cover;
+
+}
+
+
+.middleImage{
+  background-image: url("https://www.dvd-lernkurs.de/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/a/b/ableton-live-11-grundlagen-1.jpg");
+  height: 700px;
+  background-attachment: fixed;
+  background-position:center;
+}
+
+@media only screen and (max-width: 600px) {
+  .header h1 {
+    font-size: 60px;
+  }
+   .boxOne {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+}
+
+@media only screen and (max-width: 500px) {
+    .header h1 {
+        font-size: 50px;
+    }
+    .boxOne {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+  }
+}
+
+.middle{
+    width: 80%;
+    margin: 0 auto;
+    padding:70px;
+    border-bottom: 2px solid gold;
+}
+
+@media only screen and (max-width: 476) {
+  .header h1 {
+    font-size: 30px;
+  }
+  .boxOne {
+    grid-template-columns: 1fr;
+  }
+}

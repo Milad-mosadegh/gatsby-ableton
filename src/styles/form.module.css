@@ -1,0 +1,12 @@
+.center{
+    height: 90vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center h1{
+  border-bottom: 2px solid gold;
+  padding: 20px;
+}

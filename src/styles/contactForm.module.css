@@ -1,5 +1,5 @@
 .containerFrom{
-    margin-top: 300px;
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
 }
@@ -15,11 +15,11 @@
 }
 
 .containerFrom p{
-    padding: 50px
+    padding: 10px 200px;
 }
 
 .form{
-    width: 80%;
+    width: 40%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
